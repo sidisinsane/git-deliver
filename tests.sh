@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -o nounset
+
 SSH_TEST_USER=$USER
 SSH_TEST_HOST="localhost"
 SSH_TEST_GROUP=git
